@@ -88,7 +88,7 @@ const Login = () => {
      <img className='w-full h-full' src={bg_url} alt="" />
      </div>
 
-     <form className='absolute bg-[#000000BF] w-[500px] h-[700px] p-12 rounded-md' onSubmit={(e)=>e.preventDefault()}  action=""> 
+     <form className='absolute bg-[#000000BF] w-[450px] h-[500px] p-12 rounded-md' onSubmit={(e)=>e.preventDefault()}  action=""> 
      
      <p className='font-bold text-white text-3xl py-4'>{
          issignin ? 'Sign In' : 'Sign Up'
