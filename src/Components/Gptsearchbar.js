@@ -18,7 +18,7 @@ const Gptsearchbar =  () => {
     '&include_adult=false&language=en-US&page=1', options)
     const json = await data.json();
     
-    return json.results.slice(0,6)
+    return json.results.slice(0,5)
     
   }
 
