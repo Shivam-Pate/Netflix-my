@@ -13,7 +13,7 @@ const useNowplaying = () => {
     const data = await fetch('https://api.themoviedb.org/3/movie/now_playing?page=1', options)
     const json = await data.json()
 
-    const result = json.results.slice(0,6)
+    const result = json.results.slice(0,5)
     dispatch(addnowplayingmovies(result))
     
    
