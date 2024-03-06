@@ -87,7 +87,7 @@ signOut(auth).then(() => {
     <div onClick={barHandler}>
     <img className='w-10 h-10 ' src={user?.photoURL} alt=""/>
     {welcomebar ? 
-     <div class="absolute bg-white rounded right-2 top-[155px]  p-2 shadow-md ">
+     <div class="absolute bg-white rounded right-2 top-[155px] md:top-[100px] md:right-6  p-2 shadow-md ">
      <div class="w-4 h-4 bg-white rotate-45 absolute -top-2 right-2"></div><h4>Welcome! {user?.displayName}</h4>
    <hr class="mb-1 mt-2"/><span onClick={signoutHandler} class="text-red-500 cursor-pointer inline-block">Sign Out</span></div>
    : <></>  
